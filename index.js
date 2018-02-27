@@ -10,9 +10,9 @@ let connection = mysql.createConnection({
     charset: 'utf8mb4'
 });
 const instagram = new Instagram({
-    clientId: 'd76a10c43f204d3f9ab12f123571fdf6',
-    clientSecret: 'b71898823e4142fab51886756d98a326',
-    accessToken: '439752721.1677ed0.6a343b0ec00d487988773e2348a59fc7',
+    clientId: '',
+    clientSecret: '',
+    accessToken: '',
 });
 
 connection.connect(function(err) {
