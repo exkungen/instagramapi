@@ -20,7 +20,7 @@ connection.connect(function(err) {
 
 
     }
-    FB.api('17841400261636871/', { fields: 'media.limit(85){insights.metric(impressions),media_url,caption,timestamp,id}', access_token:'EAADGAMZAy2GEBAAwvU3a9KSohZBh2ZAktKTZBYvM095xFSaZCHkXj05UeZCLFLTZCFhVLU6dvDAI6ZAP6hKgRSbPssOtn8YaZAISrSodkZA5zSAZBYVnngov6gYR7TYSg0jviqTPViHs6Y5QKUD0aER54pXTvNxRHo0HXBZCD2x6nHX7GgZDZD' }, function (res) {
+    FB.api('17841400261636871/', { fields: 'media.limit(85){insights.metric(impressions),media_url,caption,timestamp,id}', access_token:'' }, function (res) {
         let stringify = JSON.stringify(res.media.data);
         let parsed = JSON.parse(stringify);
          console.log(parsed);
